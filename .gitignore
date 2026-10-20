@@ -1,0 +1,29 @@
+# Model weights (Large files)
+*.rknn
+*.rkllm
+models/*.rknn
+models/*.rkllm
+!models/README.md
+
+# Build directories and artifacts
+build/
+bin/
+obj/
+*.o
+*.a
+VLM_NPU
+
+# Code::Blocks project files
+*.depend
+*.layout
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
